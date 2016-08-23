@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xhyy.lxr.nettest.MainActivity">
+
+    <Button
+        android:id="@+id/main_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get请求"/>
+
+    <Button
+        android:id="@+id/main_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST请求"/>
+
+    <Button
+        android:id="@+id/main_up_load_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单图上传"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_up_load_multi"
+        android:text="多图上传"/>
+
+
+</LinearLayout>
